@@ -1,1 +1,8 @@
 <h1>Cows!</h1>
+<ul>
+  <% @cows.each do |cow| %>
+  <li>
+    <%= cow.name %>
+  </li>
+  <% end %>
+</ul>
